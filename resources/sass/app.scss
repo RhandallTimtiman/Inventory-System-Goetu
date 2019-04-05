@@ -1,0 +1,83 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//admin-lte
+@import "~admin-lte/dist/css/adminlte.css";
+@import "~bootstrap/scss/bootstrap";
+@import "~admin-lte/build/scss/AdminLTE-raw";
+
+//fontawesome
+@import "@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "@fortawesome/fontawesome-free/scss/solid.scss";
+@import "@fortawesome/fontawesome-free/scss/brands.scss";
+
+select.filter {
+  color: white;
+  background-color: #007bff;
+  outline: none;
+  border: none;
+}
+
+body{
+  background-color: #f4f6f9;
+}
+
+button.search {
+    height: 1.8rem;
+    color: white;
+    background-color: #69a9ff !important;
+}
+
+textarea{
+  resize: none;
+}
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.card-header-custom{
+    color: white;
+    background: #007bff;
+}
+
+.card-header > .card-tools {
+    top: 0.85rem;
+}
+
+.card-title{
+  margin-bottom: 0.15rem;
+}
+
+.dropdown-item{
+  color: black !important;
+}
+
+@media only screen and (max-width: 569px) {
+  .list.card-header{
+    min-height: 9rem;
+  }
+  .list.card-header > .card-tools {
+    top: 4.35rem;
+    right: 1rem;
+    left: 2rem;
+  }
+}
+
+@media only screen and (max-width: 302px) {
+  .list.card-header{
+    min-height: 12rem;
+  }
+}
+
+ul.nav.nav-treeview {
+    margin-left: 0.5rem;
+}
